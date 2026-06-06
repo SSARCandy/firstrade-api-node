@@ -1,14 +1,34 @@
 {
   "name": "firstrade-api-node",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Unofficial Firstrade API Node.js library for account management, quotes, and trading.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
-    "docs": "typedoc"
+    "build": "tsc",
+    "test": "ts-node test.ts",
+    "docs": "typedoc",
+    "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssarc/firstrade-api-node.git"
+  },
+  "keywords": [
+    "firstrade",
+    "api",
+    "trading",
+    "stock",
+    "options",
+    "finance"
+  ],
+  "author": "ssarcandy",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^25.9.2",
     "@types/tough-cookie": "^4.0.5",
