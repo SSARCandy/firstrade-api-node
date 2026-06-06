@@ -1,6 +1,6 @@
 {
   "name": "firstrade-api-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Unofficial Firstrade API Node.js library for account management, quotes, and trading.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,8 +17,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ssacrandy/firstrade-api-node.git"
+    "url": "git+https://github.com/ssarcandy/firstrade-api-node.git"
   },
+  "homepage": "https://ssarcandy.tw/firstrade-api-node/",
   "keywords": [
     "firstrade",
     "api",
