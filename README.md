@@ -1,5 +1,6 @@
 # Firstrade API Node
 
+![NPM Version](https://img.shields.io/npm/v/firstrade-api-node)
 ![NPM Downloads](https://img.shields.io/npm/d18m/firstrade-api-node)
 ![NPM License](https://img.shields.io/npm/l/firstrade-api-node)
 
