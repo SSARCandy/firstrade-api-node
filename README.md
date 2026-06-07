@@ -1,5 +1,8 @@
 # Firstrade API Node
 
+![NPM Downloads](https://img.shields.io/npm/d18m/firstrade-api-node)
+![NPM License](https://img.shields.io/npm/l/firstrade-api-node)
+
 A Node.js port of the unofficial [Firstrade API](https://github.com/MaxxRK/firstrade-api) Python library. This library provides programmatic access to Firstrade accounts, allowing you to fetch account data, place orders, retrieve stock and option quotes, and manage watchlists.
 
 ## Features
