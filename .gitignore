@@ -3,3 +3,4 @@ ft_*.json
 node_modules/
 dist/
 docs/
+.npmrc
